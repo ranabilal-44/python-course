@@ -1,0 +1,13 @@
+print("Welcome to the ATM!")
+print("Card inserted...")
+pin = input("Enter your PIN: ")
+print("PIN accepted ")  
+account = input("Select account type (savings/current): ")
+print("You selected:", account)
+balance = 5000
+amount = int(input("Enter amount to withdraw: "))
+print("Please take your cash:", amount, "")
+print("Transaction successful ")
+receipt = input("Do you want a receipt? (yes/no): ")
+print("Receipt option:", receipt)
+print("Please take your card. Thank you for using our ATM!")
